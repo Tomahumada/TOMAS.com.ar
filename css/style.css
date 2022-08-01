@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap');
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+/*HEADER*/
+.tamLogo{
+    width: 100px;
+}
+
+.ancla{
+    color: #666;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 10px 60px;
+    transition: .4s;
+}
+
+li .ancla:hover{
+    color: #fff;
+    box-shadow: 6px 6px 10px #fff;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/*PAGINA DE INICIO*/
+/*HERO*/
+
+.fondo{
+    padding: 80px 20px;
+    width: 75%;
+    margin: auto;
+    background-color: #fff;
+    opacity: 85%;
+}
+
+.fondoPri{
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colorFondo{
+    background-color: #a3cef1;
+    border-radius: 0 0 30px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.botones{
+    background-color: black;
+    color: #fff;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo1{
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 50px 0 15px 0;
+}
+
+.main{
+    margin: 30px 0 90px 0;
+}
+
+.titulo{
+    text-align: center;
+    margin: 40px 0 10px 0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Descripcion{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 30px 40px 30px;
+}
+
+.promos{
+    margin: 30px 0 10px 0;
+    width: 30%;
+}
+
+/*PARTE DE LAS PROMOCIONES*/
+
+.promociones{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 40px 10px;
+    margin: 90px 0px 100px 0;
+}
+
+.promText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*PARTE DEL FOOTER*/
+
+.redes{
+    width: 90px;
+    padding: 15px 20px;
+}
+
+.footer{
+    text-align: center;
+    align-items: center;
+}
+
+/*PAGINA DE CONTACTO*/
+
+.formularioContacto{
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    margin: auto auto 30px auto;
+    padding: 20px 0;
+}
+
+.btnContact{
+	margin:10px 5px 10px 5px ;
+	font-size: 15px;
+	color: #fff;
+	padding: 7px 25px;
+	border: #000 solid 2px;
+	border-radius: 5px;
+	background-color: #000;
+	transition: .4s;
+}
+
+.btnContact:hover{
+	background-color: #fff;
+    color: #222222;
+	border-radius: 15px;
+}
+
+.input-contact{
+    width: 30%;
+    margin: auto;
+}
+
+/*PAGINA SOBRE NOSOTROS*/
+.imagen-pres{
+	text-align: center;
+    width: 100%;
+    margin: auto;
+	padding-top: 20px;
+}
+
+.ubiTrabajo{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.trabajamos{
+    font-size: 40px;
+}
+
+.ubicacion{
+    font-size: 40px;
+}
+
+.mapa{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+}
+/*ESTE MEDIA SIRVE PARA ACOMODAR ALGUNAS COSAS*/
+
+@media(max-width:768px){
+    .fondo{
+        width: 100%;
+    }
+    .input-contact{
+        width: 80%;
+        margin: auto;
+    }
+
+}
